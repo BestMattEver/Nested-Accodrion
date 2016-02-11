@@ -1,7 +1,7 @@
 html{font-family: 'Lato', sans-serif;}
 a{text-decoration: none;}
-a #fa fa-arrow-right fa-2x:hover{ transform: rotateZ(45deg);}
-/*Here being all the selectors needed for the FIRST article */
+a:hover{ transform: rotateZ(45deg);}
+/*Here begin all the selectors needed for the FIRST article */
 /*I'm writing them inline like this so as to save space. its really obnoxious to read
 but there are sooooo many classes its more convienent this way. I need a way to make this dynamic*/
 #section1{
@@ -17,7 +17,7 @@ but there are sooooo many classes its more convienent this way. I need a way to 
   border-bottom: #bbbbbb 1px solid; padding-bottom: 20px;
 }
 #article1{
-  margin-bottom: 10px; display: inline;
+  margin-bottom: 10px; color: #bbbbbb;
 }
 /* here begins all the selectors needed for the SECOND article*/
 #section2{
@@ -33,5 +33,37 @@ but there are sooooo many classes its more convienent this way. I need a way to 
   border-bottom: #bbbbbb 1px solid; padding-bottom: 20px;
 }
 #article2{
-  margin-bottom: 10px;
+  margin-bottom: 10px; color: #bbbbbb;
+}
+/*here beings the selectors for the THIRD article*/
+#section3{
+  margin-top: 50px; margin-left:10%;
+}
+#icon3{
+  color: #bbbbbb; padding-right:20px;
+}
+#title3{
+  color: #47a3da; font-size: 2em;
+}
+#top_part3{
+  border-bottom: #bbbbbb 1px solid; padding-bottom: 20px;
+}
+#article3{
+  margin-bottom: 10px; color: #bbbbbb;
+}
+/*Here begin the selectors for the 4th thing*/
+#section4{
+  margin-top: 50px; margin-left:10%;
+}
+#icon4{
+  color: #bbbbbb; padding-right:20px;
+}
+#title4{
+  color: #47a3da; font-size: 2em;
+}
+#top_part4{
+  border-bottom: #bbbbbb 1px solid; padding-bottom: 20px;
+}
+#article4{
+  margin-bottom: 10px; color: #bbbbbb;
 }
