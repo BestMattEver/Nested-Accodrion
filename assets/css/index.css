@@ -18,6 +18,9 @@ i:hover{transform: rotatez(45deg); color: #47a3da;
 .nestling{
   margin-left:10%;
 }
+.nestlingTop{
+  color: #47a3da;
+}
 article{
   display: none;
 }
