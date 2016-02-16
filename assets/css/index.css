@@ -1,9 +1,10 @@
-html{font-family: 'Lato', sans-serif;}
-a{text-decoration: none;}
-a:hover{ transform: rotateZ(45deg);}
-i:hover{
-  transform: rotatez(45deg);
-  color: #47a3da;
+html{font-family: 'Lato', sans-serif;
+}
+a{text-decoration: none;
+}
+a:hover{ transform: rotateZ(45deg);
+}
+i:hover{transform: rotatez(45deg); color: #47a3da;
 }
 .visible{
   display: block;
@@ -11,12 +12,16 @@ i:hover{
 .invisible{
   display: none;
 }
+.down{
+  color: #ec0086;
+}
+.nestling{
+  margin-left:10%;
+}
 article{
   display: none;
 }
-/*Here begin all the selectors needed for the FIRST article */
-/*I'm writing them inline like this so as to save space. its really obnoxious to read
-but there are sooooo many classes its more convienent this way. I need a way to make this dynamic*/
+/*Here begin all the selectors needed for the article */
 section{
   margin-top: 50px; margin-left:10%;
 }
